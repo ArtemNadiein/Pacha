@@ -560,6 +560,7 @@ h2.single-product-title:before {
     color: #1b1b1f;
 }
 
+.modal-content .add-to-cart:hover,
 .overlay-content .add-to-cart:hover,
 .product-price .add-to-cart:hover {
     background: #fef200;
@@ -706,6 +707,26 @@ image short preview popup*
 .single-product-thumbnails li:hover,
 .single-product-thumbnails li.rslides_here {
     border: 2px solid #fef200;
+}
+
+.modal-content {
+    background: #1b1b1f;
+    width: 800px;
+}
+
+.modal-content .single-product-large {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.modal-content .product-price span {
+    margin: 0;
+    float: none;
+}
+
+.modal-content .add-to-cart {
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .single-product-large {

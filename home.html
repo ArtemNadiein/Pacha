@@ -273,14 +273,65 @@
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-body">
-                                                    <button type="button" class="close"
-                                                            data-dismiss="modal">&times;</button>
-                                                    <p>Some text in the modal.</p>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">
-                                                        Close
-                                                    </button>
+                                                    <div class="row">
+                                                        <div class="col-sm-2">
+                                                            <ul id="singleProductThumbnailsPager" class="single-product-thumbnails rslides_tabs rslides1_tabs">
+                                                                <li class="rslides1_s1">
+                                                                    <a href="#">
+                                                                        <img class="img-thumbnail" src="images/product-details/1.jpg" alt="">
+                                                                    </a>
+                                                                </li>
+                                                                <li class="rslides1_s2">
+                                                                    <a href="#">
+                                                                        <img class="img-thumbnail" src="images/product-details/similar1.jpg" alt="">
+                                                                    </a>
+                                                                </li>
+                                                                <li class="rslides1_s3 rslides_here">
+                                                                    <a href="#">
+                                                                        <img class="img-thumbnail" src="images/product-details/similar2.jpg" alt="">
+                                                                    </a>
+                                                                </li>
+                                                                <li class="rslides1_s4">
+                                                                    <a href="#">
+                                                                        <img class="img-thumbnail" src="images/product-details/similar3.jpg" alt="">
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <ul class="single-product-large rslides rslides1" id="singleProductThumbnails">
+                                                                <li id="rslides1_s0" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out;">
+                                                                    <img class="center-block" src="images/product-details/1.jpg" alt="">
+                                                                </li>
+                                                                <li id="rslides1_s1" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out;" class="">
+                                                                    <img class="center-block" src="images/product-details/similar1.jpg" alt="">
+                                                                </li>
+                                                                <li id="rslides1_s2" style="float: left; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 500ms ease-in-out;" class="rslides1_on">
+                                                                    <img class="center-block" src="images/product-details/similar2.jpg" alt="">
+                                                                </li>
+                                                                <li id="rslides1_s3" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out;" class="">
+                                                                    <img class="center-block" src="images/product-details/similar3.jpg" alt="">
+                                                                </li>
+                                                            </ul><a href="#" class="rslides_nav rslides1_nav left control-single-product prev"><i class="fa fa-angle-left"></i></a><a href="#" class="rslides_nav rslides1_nav right control-single-product next"><i class="fa fa-angle-right"></i></a>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <div class="row">
+                                                                <h4 class="text-center product-information-title">Anne Klein Sleeveless Colorblock
+                                                                    Scuba</h4>
+                                                                <div class="product-price">
+                                                                    <span>459 грн</span>
+                                                                    <a href="#" class="btn btn-default add-to-cart">
+                                                                        <i class="fa fa-shopping-cart"></i>
+                                                                        Купить
+                                                                    </a>
+                                                                </div>
+                                                                <a href="#" class="btn btn-default add-to-cart">
+                                                                    <i class="fa fa-shopping-cart"></i>
+                                                                    Добавить в корзину
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -686,5 +737,7 @@
 <script src="js/price-range.js"></script>
 <script src="js/jquery.prettyPhoto.js"></script>
 <script src="js/main.js"></script>
+<script src="js/responsiveslides.js"></script>
+<script src="js/responsiveslides-init.js"></script>
 </body>
 </html>
