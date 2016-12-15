@@ -491,6 +491,7 @@ h2.single-product-title:before {
     text-decoration: line-through;
 }
 
+
 .add-to-cart {
     background: #f1f1f1;
     border: 0 none;
@@ -560,6 +561,7 @@ h2.single-product-title:before {
     color: #1b1b1f;
 }
 
+.fb_more .add-to-cart:hover,
 .modal-content .add-to-cart:hover,
 .overlay-content .add-to-cart:hover,
 .product-price .add-to-cart:hover {
@@ -1186,3 +1188,79 @@ input[type=radio]:checked + label.radio-button {
     background: #fef200;
     color: #1b1b1f;
 }
+
+/*feedback*/
+.fb_all-value {
+    font-size: 24px;
+    font-weight:500;
+}
+
+.fb_cur-value {
+    font-weight: normal;
+    color: #b3abab;
+    font-size: 20px;
+}
+
+.fb_all-rating a,
+.fb_sort a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #b3abab;
+    transition: 0.3s;
+}
+
+.fb_sort a.active{
+   text-decoration: underline;
+}
+
+.fb_all-rating a:hover,
+.fb_sort a:hover {
+    color: #fff;
+}
+
+.fb-user_name {
+    font-size: 20px;
+}
+
+.fa-star {
+    color: #b3abab;
+    cursor: pointer;
+}
+
+.good-feedback {
+    color: #fef200;
+}
+
+.fb-user {
+    margin-bottom: 15px;
+}
+
+.fb_more {
+    margin: 20px 0 0;
+}
+
+.btn-fb {
+    display: block;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.btn-fb:hover{
+    background: #fef200;
+}
+
+.fb_show {
+    font-size: 18px;
+}
+
+.fb_all-rating > div {
+    margin-bottom: 10px;
+}
+
+.fb_rating span {
+    width: 50px;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+}
+/*end feedback*/
