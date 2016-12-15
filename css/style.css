@@ -711,9 +711,12 @@ image short preview popup*
     border: 2px solid #fef200;
 }
 
+.modal-dialog {
+    width: 800px;
+}
+
 .modal-content {
     background: #1b1b1f;
-    width: 800px;
 }
 
 .modal-content .single-product-large {
@@ -1262,5 +1265,22 @@ input[type=radio]:checked + label.radio-button {
     display: inline-block;
     margin-left: 10px;
     text-align: center;
+}
+
+.modal {
+ overflow-y: auto;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.fb_modal textarea {
+    min-height: 70px;
 }
 /*end feedback*/
