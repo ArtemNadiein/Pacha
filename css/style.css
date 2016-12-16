@@ -484,13 +484,14 @@ h2.single-product-title:before {
     display: block;
     margin-bottom: 10px;
 }
+
 .without-sell {
     margin-top: 10px;
 }
+
 .price-sell {
     text-decoration: line-through;
 }
-
 
 .add-to-cart {
     background: #f1f1f1;
@@ -1089,20 +1090,16 @@ input[type=radio]:checked + label.radio-button {
     padding-right: 10px;
 }
 
-.profile-button {
-    width: 175px;
-    margin: 10px 0 0 40px;
-}
-
 .profile-feedback-area {
     margin-bottom: 30px;
 }
 
+#profile-feedback {
+    width: 100%;
+}
+
 .profile-feedback-button {
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    right: 30px;
+margin: 75px 0 0;
 }
 
 /*************************
@@ -1195,7 +1192,7 @@ input[type=radio]:checked + label.radio-button {
 /*feedback*/
 .fb_all-value {
     font-size: 24px;
-    font-weight:500;
+    font-weight: 500;
 }
 
 .fb_cur-value {
@@ -1205,15 +1202,15 @@ input[type=radio]:checked + label.radio-button {
 }
 
 .fb_all-rating a,
-.fb_sort a{
+.fb_sort a {
     display: inline-block;
     margin: 0 10px;
     color: #b3abab;
     transition: 0.3s;
 }
 
-.fb_sort a.active{
-   text-decoration: underline;
+.fb_sort a.active {
+    text-decoration: underline;
 }
 
 .fb_all-rating a:hover,
@@ -1227,7 +1224,6 @@ input[type=radio]:checked + label.radio-button {
 
 .fa-star {
     color: #b3abab;
-    cursor: pointer;
 }
 
 .good-feedback {
@@ -1243,12 +1239,10 @@ input[type=radio]:checked + label.radio-button {
 }
 
 .btn-fb {
-    display: block;
-    width: 100%;
     margin-bottom: 70px;
 }
 
-.btn-fb:hover{
+.btn-fb:hover {
     background: #fef200;
 }
 
@@ -1268,7 +1262,7 @@ input[type=radio]:checked + label.radio-button {
 }
 
 .modal {
- overflow-y: auto;
+    overflow-y: auto;
 }
 
 .modal-header,
@@ -1283,4 +1277,44 @@ input[type=radio]:checked + label.radio-button {
 .fb_modal textarea {
     min-height: 70px;
 }
+
+.caption {
+    display: none !important;
+}
+
+.rating .star {
+    cursor: pointer;
+}
+
+.sidebar-nav-fixed {
+    width: 29%;
+}
+
 /*end feedback*/
+.navbar-toggle .icon-bar{
+    transition: 0.4s;
+}
+
+.navbar-header .navbar-toggle.active .icon-bar:nth-child(2) {
+    transform: rotate(-45deg);
+}
+
+.navbar-header .navbar-toggle.active .icon-bar:nth-child(3) {
+    opacity: 0;
+}
+
+.navbar-header .navbar-toggle.active .icon-bar:last-child {
+    transform: rotate(45deg) translate(-8px, -9px);
+}
+
+.navbar-toggle:focus {
+    outline: none;
+}
+
+.carousel-inner {
+    margin-top: 10px;
+}
+
+.close {
+    display: none;
+}
